@@ -1,0 +1,15 @@
+2025-06-01 11:50:15,838 - INFO - Received prediction request: {'Alloy': 'Aluminium', 'Finish': 'Powder coated', 'Length_m': 23.8, 'Weight_kg_m': 1.342, 'Tolerances': 0.1, 'GD_T': 'medium', 'Order_Quantity': 85000, 'LME_Price_EUR': 3.4, 'Customer_Category': 'medium', 'Lead_Time_weeks': 6, 'Profile_Name': 'Karmlist'}
+2025-06-01 11:50:15,838 - ERROR - Quote generation failed: No model available for user 'test_user' (no training data).
+2025-06-01 11:50:59,202 - INFO - Received prediction request: {'Alloy': 'Aluminium', 'Finish': 'Powder coated', 'Length_m': 23.8, 'Weight_kg_m': 1.342, 'Tolerances': 0.1, 'GD_T': 'medium', 'Order_Quantity': 85000, 'LME_Price_EUR': 3.4, 'Customer_Category': 'medium', 'Lead_Time_weeks': 6, 'Profile_Name': 'Karmlist'}
+2025-06-01 11:50:59,202 - ERROR - Quote generation failed: No model available for user 'test_user' (no training data).
+2025-06-01 11:58:40,126 - ERROR - Quote generation failed: No model found
+2025-06-01 12:03:09,438 - ERROR - Quote generation failed: No model found
+2025-06-01 12:05:17,190 - ERROR - Quote generation failed: No model found
+2025-06-01 12:05:58,168 - ERROR - Quote generation failed: No model found
+2025-06-01 12:06:36,793 - ERROR - Quote generation failed: No model found
+2025-06-01 12:07:13,990 - ERROR - Quote generation failed: No model found
+2025-06-01 12:09:03,920 - ERROR - Quote generation failed: No model found
+2025-06-01 12:11:22,814 - ERROR - Quote generation failed: No model found
+2025-06-01 12:13:12,389 - ERROR - Quote generation failed: No model found
+2025-06-01 12:13:33,852 - ERROR - Quote generation failed: No model found
+2025-06-01 12:14:48,318 - ERROR - Quote generation failed: No model found
