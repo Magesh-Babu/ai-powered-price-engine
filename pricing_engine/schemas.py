@@ -6,7 +6,7 @@ from typing import Literal
 class QuoteSchemaV1(BaseModel):
     """Input schema for generating a price quote based on product specifications."""
     Alloy: Literal['Iron', 'Aluminium', 'Copper', 'Nickel', 'Titanium', 'Zinc']
-    Finish: str
+    Finish: Literal['Powder coated', 'electroplated', 'anodized', 'plasma sprayed', 'phosphated', 'hot-dip galvanized', 'wet painted', 'blackening']
     Length_m: float = Field(..., ge=0.1, le=100.0)
     Weight_kg_m: float = Field(..., ge=0.01, le=100.0)
     Tolerances: float = Field(..., ge=0.05, le=0.2)
